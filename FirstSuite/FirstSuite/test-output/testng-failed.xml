@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="test2(failed)">
+    <classes>
+      <class name="ui.TitleHomeTest">
+        <methods>
+          <include name="TitleCheck"/>
+        </methods>
+      </class> <!-- ui.TitleHomeTest -->
+      <class name="ui.TitleLoginTest">
+        <methods>
+          <include name="Exit"/>
+          <include name="Startup"/>
+        </methods>
+      </class> <!-- ui.TitleLoginTest -->
+    </classes>
+  </test> <!-- test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
