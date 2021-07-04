@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="1(failed)">
+    <classes>
+      <class name="ui.TitleLoginTest">
+        <methods>
+          <include name="Exit"/>
+          <include name="Startup"/>
+        </methods>
+      </class> <!-- ui.TitleLoginTest -->
+      <class name="ui.LoginTest">
+        <methods>
+          <include name="CALogin"/>
+        </methods>
+      </class> <!-- ui.LoginTest -->
+    </classes>
+  </test> <!-- 1(failed) -->
+  <test parallel="none" name="2(failed)">
+    <classes>
+      <class name="ui.TitleHomeTest">
+        <methods>
+          <include name="TitleCheck"/>
+        </methods>
+      </class> <!-- ui.TitleHomeTest -->
+      <class name="ui.TitleLoginTest">
+        <methods>
+          <include name="Exit"/>
+          <include name="Startup"/>
+        </methods>
+      </class> <!-- ui.TitleLoginTest -->
+    </classes>
+  </test> <!-- 2(failed) -->
+  <test parallel="none" name="3(failed)">
+    <classes>
+      <class name="ui.LogoutTest">
+        <methods>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- ui.LogoutTest -->
+      <class name="ui.TitleLoginTest">
+        <methods>
+          <include name="Exit"/>
+          <include name="Startup"/>
+        </methods>
+      </class> <!-- ui.TitleLoginTest -->
+    </classes>
+  </test> <!-- 3(failed) -->
+  <test parallel="none" name="4(failed)">
+    <classes>
+      <class name="ui.TitleLoginTest">
+        <methods>
+          <include name="TitleLogoutCheck"/>
+          <include name="Exit"/>
+          <include name="Startup"/>
+        </methods>
+      </class> <!-- ui.TitleLoginTest -->
+    </classes>
+  </test> <!-- 4(failed) -->
+</suite> <!-- Failed suite [Suite] -->
